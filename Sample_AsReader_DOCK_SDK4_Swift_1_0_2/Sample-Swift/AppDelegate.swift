@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     window = (UIApplication.shared.connectedScenes.first as! UIWindowScene).windows.first!
                 } else {
                     window = (UIApplication.shared.delegate as! AppDelegate).window
-    
+
                 }
                 return true    //ここで真っ黒
             }
@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //
 //            window = UIWindow(frame: UIScreen.main.bounds)
 //            let vc = UIViewController(nibName: "AsViewController", bundle: nil)
-//            let v = AsViewController()
+////            let v = AsViewController()
 ////            v.parentVC = vc
 ////            v.setNeedsDisplay()
 ////            vc.view = v
