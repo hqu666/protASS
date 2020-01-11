@@ -1,0 +1,8 @@
+1.0.2（2019.09.25）
+----------------------
+·update SDK to ver.4.0.14
+·Swift5 is adapted  (Xcode10.2+ is required for coding)
+
+1.0.1
+————————————————————
+·Disable the background mode.

@@ -13,11 +13,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+        /* プロジェクトファイルで//Deployment Info / Main Interface にある MainをしていしてMain.storyboardから起動する場合は*/
+            func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+                // Override point for customization after application launch.
+                // 従来のWindow取得(Swift)
+                if #available(iOS 13.0, *) {
+                    window = (UIApplication.shared.connectedScenes.first as! UIWindowScene).windows.first!
+                } else {
+                    window = (UIApplication.shared.delegate as! AppDelegate).window
 
-    internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+                }
+                return true    //ここで真っ黒
+            }
+        
+        /* Main.storyboardを使わない場合は
+        Deployment Info / Main Interface にある Mainを空欄にしてこここで指定*/
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//            window = UIWindow(frame: UIScreen.main.bounds)
+//            window?.rootViewController = AsViewController()
+//            window?.makeKeyAndVisible()
+//            return true
+//        }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

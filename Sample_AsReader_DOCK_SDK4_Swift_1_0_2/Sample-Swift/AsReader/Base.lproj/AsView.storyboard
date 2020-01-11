@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CZT-J8-Yzw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CZT-J8-Yzw">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="4608" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--AsReader-->
         <scene sceneID="tSe-tH-agY">
             <objects>
-                <viewController storyboardIdentifier="ID_MAIN" id="ZRT-I4-GWu" customClass="ViewController" customModule="Sample_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ID_MAIN" id="ZRT-I4-GWu" customClass="AsViewController" customModule="Sample_Swift" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M8U-eQ-6AB"/>
                         <viewControllerLayoutGuide type="bottom" id="QzD-SG-u30"/>
@@ -157,8 +156,8 @@
                                     <constraint firstItem="1CB-US-1bW" firstAttribute="centerY" secondItem="zk1-cj-knB" secondAttribute="centerY" id="wJB-oi-Fnv"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="KaR-Kw-6Y6">
-                                <rect key="frame" x="0.0" y="155" width="375" height="438"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="KaR-Kw-6Y6">
+                                <rect key="frame" x="0.0" y="154.5" width="375" height="458"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="CustomCell" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="59" id="HR8-xK-rtI" customClass="CustomCell" customModule="Sample_Swift">
@@ -237,13 +236,6 @@
                                     <outlet property="delegate" destination="ZRT-I4-GWu" id="MKY-dD-7ec"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AsReaderDockSDK.framework" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n5L-ca-E5g">
-                                <rect key="frame" x="0.0" y="600" width="375" height="8"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
-                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -261,7 +253,6 @@
                             <constraint firstAttribute="trailing" secondItem="4su-0c-b0g" secondAttribute="trailing" id="rvg-xH-q8q"/>
                             <constraint firstItem="zk1-cj-knB" firstAttribute="leading" secondItem="tuf-qh-YxD" secondAttribute="leading" id="zJC-7o-pDw"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="1tq-SM-8IB"/>
                     </view>
                     <navigationItem key="navigationItem" title="AsReader" id="V46-bE-DN8">
                         <barButtonItem key="backBarButtonItem" title="Back" id="tXF-VZ-ZXq"/>

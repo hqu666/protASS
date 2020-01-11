@@ -1,14 +1,17 @@
 //
-//  ViewController.swift
+//  AsViewController.swift
 //  Sample-Swift
 //
-//  Created by mac on 2017/11/6.
-//  Copyright © 2017年 zyl. All rights reserved.
+//  Created by 桑山　博臣 on 2020/01/11.
+//  Copyright © 2020 zyl. All rights reserved.
 //
 
 import UIKit
 
-class ViewController:UIViewController,AsReaderRFIDDeviceDelegate,AsReaderDeviceDelegate, AsreaderBarcodeDeviceDelegate, AsReaderNFCDeviceDelegate,UITableViewDataSource,UITableViewDelegate {
+class AsViewController:UIViewController,AsReaderRFIDDeviceDelegate,AsReaderDeviceDelegate, AsreaderBarcodeDeviceDelegate, AsReaderNFCDeviceDelegate,UITableViewDataSource,UITableViewDelegate {
+    
+
+    
     func checkTriggerStatus(_ strStatus: String!) {
         
     }
@@ -172,7 +175,7 @@ class ViewController:UIViewController,AsReaderRFIDDeviceDelegate,AsReaderDeviceD
         if (mbIsCahrging){
             imageName =  String.init(format: "bat_charge_%d.png", nVal ) as NSString
         }else{
-            imageName =  String.init(format: "bat_normal_%d.png", nVal ) as NSString  
+            imageName =  String.init(format: "bat_normal_%d.png", nVal ) as NSString
         }
         DispatchQueue.main.async {
             self.olBattery.image = UIImage.init(named: imageName as String)

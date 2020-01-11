@@ -10,8 +10,7 @@
 		043F218A1FB18E1C0047EDCC /* ASXConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F21881FB18E1C0047EDCC /* ASXConst.swift */; };
 		043F218B1FB18E1C0047EDCC /* ASXUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F21891FB18E1C0047EDCC /* ASXUtility.swift */; };
 		0476020F1FAFF34E001C83DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476020E1FAFF34E001C83DF /* AppDelegate.swift */; };
-		047602111FAFF34E001C83DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047602101FAFF34E001C83DF /* ViewController.swift */; };
-		047602141FAFF34E001C83DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047602121FAFF34E001C83DF /* Main.storyboard */; };
+		047602141FAFF34E001C83DF /* AsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047602121FAFF34E001C83DF /* AsView.storyboard */; };
 		047602161FAFF34E001C83DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047602151FAFF34E001C83DF /* Assets.xcassets */; };
 		047602191FAFF34E001C83DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047602171FAFF34E001C83DF /* LaunchScreen.storyboard */; };
 		047602211FAFF3CB001C83DF /* AsReaderDockSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047602201FAFF3CA001C83DF /* AsReaderDockSDK.framework */; };
@@ -32,15 +31,15 @@
 		047602411FB00890001C83DF /* bat_charge_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047602321FB00890001C83DF /* bat_charge_2.png */; };
 		047602451FB00992001C83DF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047602441FB0098C001C83DF /* libc++.tbd */; };
 		04FB5CE91FB08E2F0002DD90 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5CE81FB08E2F0002DD90 /* CustomCell.swift */; };
+		5F257AC623C9D1210080DE84 /* AsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257AC523C9D1210080DE84 /* AsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		043F21881FB18E1C0047EDCC /* ASXConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASXConst.swift; sourceTree = "<group>"; };
 		043F21891FB18E1C0047EDCC /* ASXUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASXUtility.swift; sourceTree = "<group>"; };
-		0476020B1FAFF34E001C83DF /* protAsSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protAsSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0476020B1FAFF34E001C83DF /* Sample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0476020E1FAFF34E001C83DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		047602101FAFF34E001C83DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		047602131FAFF34E001C83DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047602131FAFF34E001C83DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AsView.storyboard; sourceTree = "<group>"; };
 		047602151FAFF34E001C83DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047602181FAFF34E001C83DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0476021A1FAFF34E001C83DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		047602431FB00982001C83DF /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		047602441FB0098C001C83DF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		04FB5CE81FB08E2F0002DD90 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		5F257AC523C9D1210080DE84 /* AsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		0476020C1FAFF34E001C83DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0476020B1FAFF34E001C83DF /* protAsSDK.app */,
+				0476020B1FAFF34E001C83DF /* Sample-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,16 +99,16 @@
 		0476020D1FAFF34E001C83DF /* Sample-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				047602221FAFF687001C83DF /* Sample-Bridging-Header.h */,
+				043F21881FB18E1C0047EDCC /* ASXConst.swift */,
+				5F257AC423C9CFD70080DE84 /* AsReader */,
+				047602231FB00845001C83DF /* image */,
 				047602201FAFF3CA001C83DF /* AsReaderDockSDK.framework */,
-				5F9EBFCC23C975D10032E699 /* AsReader */,
 				0476020E1FAFF34E001C83DF /* AppDelegate.swift */,
 				04FB5CE81FB08E2F0002DD90 /* CustomCell.swift */,
-				047602101FAFF34E001C83DF /* ViewController.swift */,
-				047602121FAFF34E001C83DF /* Main.storyboard */,
 				047602151FAFF34E001C83DF /* Assets.xcassets */,
 				047602171FAFF34E001C83DF /* LaunchScreen.storyboard */,
 				0476021A1FAFF34E001C83DF /* Info.plist */,
+				047602221FAFF687001C83DF /* Sample-Bridging-Header.h */,
 			);
 			path = "Sample-Swift";
 			sourceTree = "<group>";
@@ -144,12 +144,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F9EBFCC23C975D10032E699 /* AsReader */ = {
+		5F257AC423C9CFD70080DE84 /* AsReader */ = {
 			isa = PBXGroup;
 			children = (
-				047602231FB00845001C83DF /* image */,
-				043F21881FB18E1C0047EDCC /* ASXConst.swift */,
 				043F21891FB18E1C0047EDCC /* ASXUtility.swift */,
+				047602121FAFF34E001C83DF /* AsView.storyboard */,
+				5F257AC523C9D1210080DE84 /* AsViewController.swift */,
 			);
 			path = AsReader;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			);
 			name = "Sample-Swift";
 			productName = "Sample-Swift";
-			productReference = 0476020B1FAFF34E001C83DF /* protAsSDK.app */;
+			productReference = 0476020B1FAFF34E001C83DF /* Sample-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 				0476023B1FB00890001C83DF /* bat_normal_3.png in Resources */,
 				047602361FB00890001C83DF /* bat_normal_4.png in Resources */,
 				0476023A1FB00890001C83DF /* icon_barcode.png in Resources */,
-				047602141FAFF34E001C83DF /* Main.storyboard in Resources */,
+				047602141FAFF34E001C83DF /* AsView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047602111FAFF34E001C83DF /* ViewController.swift in Sources */,
+				5F257AC623C9D1210080DE84 /* AsViewController.swift in Sources */,
 				043F218B1FB18E1C0047EDCC /* ASXUtility.swift in Sources */,
 				043F218A1FB18E1C0047EDCC /* ASXConst.swift in Sources */,
 				04FB5CE91FB08E2F0002DD90 /* CustomCell.swift in Sources */,
@@ -252,12 +252,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		047602121FAFF34E001C83DF /* Main.storyboard */ = {
+		047602121FAFF34E001C83DF /* AsView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				047602131FAFF34E001C83DF /* Base */,
 			);
-			name = Main.storyboard;
+			name = AsView.storyboard;
 			sourceTree = "<group>";
 		};
 		047602171FAFF34E001C83DF /* LaunchScreen.storyboard */ = {
@@ -394,10 +394,10 @@
 					"$(PROJECT_DIR)/Sample-Swift",
 				);
 				INFOPLIST_FILE = "Sample-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coresoft01.asreader.sdk;
-				PRODUCT_NAME = protAsSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = coresoft01.sample.asdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)Sample-Swift/Sample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -417,10 +417,10 @@
 					"$(PROJECT_DIR)/Sample-Swift",
 				);
 				INFOPLIST_FILE = "Sample-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coresoft01.asreader.sdk;
-				PRODUCT_NAME = protAsSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = coresoft01.sample.asdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)Sample-Swift/Sample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

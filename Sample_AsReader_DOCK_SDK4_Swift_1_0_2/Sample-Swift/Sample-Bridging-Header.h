@@ -8,7 +8,7 @@
 
 //
 //  Use this file to import your target's public headers that you would like to expose to Swift.
-// このファイルとAsReaderDockSDK.frameworkはルートから移動できない
+//
 
 /*SDK header files*/
 #import <AsReaderDockSDK/AsReaderDockSDK.h>
