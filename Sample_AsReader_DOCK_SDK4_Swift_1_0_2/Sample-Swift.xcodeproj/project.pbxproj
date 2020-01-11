@@ -99,6 +99,7 @@
 		0476020D1FAFF34E001C83DF /* Sample-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				043F21881FB18E1C0047EDCC /* ASXConst.swift */,
 				5F257AC423C9CFD70080DE84 /* AsReader */,
 				047602231FB00845001C83DF /* image */,
 				047602201FAFF3CA001C83DF /* AsReaderDockSDK.framework */,
@@ -146,7 +147,6 @@
 		5F257AC423C9CFD70080DE84 /* AsReader */ = {
 			isa = PBXGroup;
 			children = (
-				043F21881FB18E1C0047EDCC /* ASXConst.swift */,
 				043F21891FB18E1C0047EDCC /* ASXUtility.swift */,
 				047602121FAFF34E001C83DF /* AsView.storyboard */,
 				5F257AC523C9D1210080DE84 /* AsViewController.swift */,
