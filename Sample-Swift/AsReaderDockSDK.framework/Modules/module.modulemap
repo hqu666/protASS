@@ -1,6 +1,0 @@
-framework module AsReaderDockSDK {
-  umbrella header "AsReaderDockSDK.h"
-
-  export *
-  module * { export * }
-}
