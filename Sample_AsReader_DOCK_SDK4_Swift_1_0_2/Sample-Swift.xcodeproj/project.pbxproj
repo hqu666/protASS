@@ -32,6 +32,7 @@
 		047602411FB00890001C83DF /* bat_charge_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047602321FB00890001C83DF /* bat_charge_2.png */; };
 		047602451FB00992001C83DF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047602441FB0098C001C83DF /* libc++.tbd */; };
 		04FB5CE91FB08E2F0002DD90 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5CE81FB08E2F0002DD90 /* CustomCell.swift */; };
+		5F257AC623C9D1210080DE84 /* AsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257AC523C9D1210080DE84 /* AsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		047602431FB00982001C83DF /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		047602441FB0098C001C83DF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		04FB5CE81FB08E2F0002DD90 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		5F257AC523C9D1210080DE84 /* AsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,7 @@
 		0476020D1FAFF34E001C83DF /* Sample-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				043F21881FB18E1C0047EDCC /* ASXConst.swift */,
-				043F21891FB18E1C0047EDCC /* ASXUtility.swift */,
+				5F257AC423C9CFD70080DE84 /* AsReader */,
 				047602231FB00845001C83DF /* image */,
 				047602201FAFF3CA001C83DF /* AsReaderDockSDK.framework */,
 				0476020E1FAFF34E001C83DF /* AppDelegate.swift */,
@@ -144,6 +145,16 @@
 				047602431FB00982001C83DF /* libstdc++.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F257AC423C9CFD70080DE84 /* AsReader */ = {
+			isa = PBXGroup;
+			children = (
+				043F21881FB18E1C0047EDCC /* ASXConst.swift */,
+				043F21891FB18E1C0047EDCC /* ASXUtility.swift */,
+				5F257AC523C9D1210080DE84 /* AsViewController.swift */,
+			);
+			path = AsReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F257AC623C9D1210080DE84 /* AsViewController.swift in Sources */,
 				047602111FAFF34E001C83DF /* ViewController.swift in Sources */,
 				043F218B1FB18E1C0047EDCC /* ASXUtility.swift in Sources */,
 				043F218A1FB18E1C0047EDCC /* ASXConst.swift in Sources */,

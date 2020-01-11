@@ -10,7 +10,7 @@
         <!--AsReader-->
         <scene sceneID="tSe-tH-agY">
             <objects>
-                <viewController storyboardIdentifier="ID_MAIN" id="ZRT-I4-GWu" customClass="ViewController" customModule="Sample_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ID_MAIN" id="ZRT-I4-GWu" customClass="AsViewController" customModule="Sample_Swift" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M8U-eQ-6AB"/>
                         <viewControllerLayoutGuide type="bottom" id="QzD-SG-u30"/>
