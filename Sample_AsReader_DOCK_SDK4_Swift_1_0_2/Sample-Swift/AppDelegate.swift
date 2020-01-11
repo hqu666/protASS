@@ -13,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
         /* プロジェクトファイルで//Deployment Info / Main Interface にある MainをしていしてMain.storyboardから起動する場合は*/
             func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
                 // Override point for customization after application launch.
@@ -29,17 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         /* Main.storyboardを使わない場合は
         Deployment Info / Main Interface にある Mainを空欄にしてこここで指定*/
-//        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 //            window = UIWindow(frame: UIScreen.main.bounds)
-//            let vc = UIViewController(nibName: "AsViewController", bundle: nil)
-////            let v = AsViewController()
-////            v.parentVC = vc
-////            v.setNeedsDisplay()
-////            vc.view = v
-//            window?.rootViewController = vc  //これ
+//            window?.rootViewController = AsViewController()
 //            window?.makeKeyAndVisible()
-//
 //            return true
 //        }
 
